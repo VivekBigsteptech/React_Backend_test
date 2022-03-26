@@ -6,7 +6,7 @@ const data = [
     "product_name": "apple",
     "description": "Eat one apple every day to keep the doctor away",
     "price": 12,
-    "image": fs.readFileSync('./apple.png').toString('base64'),
+    "image": fs.readFileSync('./images/apple.png').toString('base64'),
     "image_name": "apple.jpg",
   },
   {
@@ -14,7 +14,7 @@ const data = [
     "product_name": "Mango",
     "description": "The king of all fruit",
     "price": 10,
-    "image": fs.readFileSync('./mango.png').toString('base64'),
+    "image": fs.readFileSync('./images/mango.png').toString('base64'),
     "image_name": "mango.png",
   },
   {
@@ -22,7 +22,7 @@ const data = [
     "product_name": "Pineapple",
     "description": "No pine, no apple, just a whole lot of pineapple.",
     "price": 10,
-    "image": fs.readFileSync('./pineapple.png').toString('base64'),
+    "image": fs.readFileSync('./images/pineapple.png').toString('base64'),
     "image_name": "pineapple.png",
   },
   {
@@ -30,7 +30,7 @@ const data = [
     "product_name": "Orange",
     "description": "Orange fruit is always good.",
     "price": 10,
-    "image": fs.readFileSync('./orange.png').toString('base64'),
+    "image": fs.readFileSync('./images/orange.png').toString('base64'),
     "image_name": "orange.png",
   },
   {
@@ -38,7 +38,7 @@ const data = [
     "product_name": "Grapes",
     "description": "Apple is great, but grapes are even better",
     "price": 12,
-    "image": fs.readFileSync('./grapes.png').toString('base64'),
+    "image": fs.readFileSync('./images/grapes.png').toString('base64'),
     "image_name": "grapes.png",
   },
 ]
